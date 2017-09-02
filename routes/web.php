@@ -11,6 +11,14 @@
 |
 */
 
+Route::get('/documentation', function () {
+    return 'Documentation under construction!';
+});
+
+Route::get('/contact', function () {
+    return 'Efosa & Osagie!';
+});
+
 Route::get('/', function () {
     return view('welcome');
 });
